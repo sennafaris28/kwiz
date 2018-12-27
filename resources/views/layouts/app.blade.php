@@ -12,7 +12,7 @@
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="{{ url('css/master') }} master.css">
+  <link rel="stylesheet" href="css/master.css">
   <link rel="stylesheet" href="{{ url('quickadmin/css') }}/font-awesome.min.css" />
   <link rel="stylesheet" href="{{ url('quickadmin/css') }}/bootstrap.min.css" />
   <link rel="stylesheet" href="{{ url('quickadmin/css') }}/components.css" />
@@ -32,23 +32,39 @@
 <body class="page-header-fixed">
 
   <!-- Header -->
+<header id="header">
+  <div class="container">
+    <nav><!-- Navigation Menu -->
+      <a href="/" class="page-logo"><img src="img/logo.png" alt="" title="" /></a>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="about">About</a></li>
+    </ul>
+  </nav><!-- End of Navigation Menu -->
+</div>
+</header>
+
+
+
+  <!-- old navbar
   <div class="page-header navbar navbar-fixed-top">
     <div class="page-header-inner">
       <div class="page-header-inner">
         <div class="navbar-header">
-          <a href="{{ url('/') }}" class="navbar-brand"><img src="img/logo.png" alt="logo">
+          <nav>
+            <a href="{{ url('/') }}" class="page-logo"><img src="img/logo.png" alt="logo">
+            </a>
+          </div>
+          <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
           </a>
-        </div>
-        <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
-        </a>
-        <div class="top-menu">
-          <ul class="nav navbar-nav pull-right"></ul>
+          <div class="top-menu">
+            <ul class="nav navbar-nav pull-right"></ul>
+          </nav>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="clearfix"></div>
 
   <!-- Sidebar -->
   <div class="page-container">
