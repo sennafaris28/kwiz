@@ -32,21 +32,7 @@
 <body class="page-header-fixed">
 
   <!-- Header -->
-<header id="header">
-  <div class="container">
-    <nav><!-- Navigation Menu -->
-      <a href="/" class="page-logo"><img src="img/logo.png" alt="" title="" /></a>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="about">About</a></li>
-    </ul>
-  </nav><!-- End of Navigation Menu -->
-</div>
-</header>
 
-
-
-  <!-- old navbar
   <div class="page-header navbar navbar-fixed-top">
     <div class="page-header-inner">
       <div class="page-header-inner">
@@ -63,7 +49,7 @@
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 
 
   <!-- Sidebar -->
